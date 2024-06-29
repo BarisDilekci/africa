@@ -28,6 +28,8 @@
 		75A986822C2DFE9B00967D4F /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A986812C2DFE9B00967D4F /* AnimalDetailView.swift */; };
 		75A986842C2E018500967D4F /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A986832C2E018500967D4F /* HeadingView.swift */; };
 		75A986862C2E02C200967D4F /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A986852C2E02C200967D4F /* InsetGalleryView.swift */; };
+		75BD90DD2C302B20007ADBD4 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BD90DC2C302B20007ADBD4 /* VideoModel.swift */; };
+		75BD90DF2C302B95007ADBD4 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BD90DE2C302B95007ADBD4 /* VideoListItemView.swift */; };
 		75E680412C2F0B9C0029E3FE /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E680402C2F0B9C0029E3FE /* InsetFactView.swift */; };
 		75E680432C2F0EAC0029E3FE /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E680422C2F0EAC0029E3FE /* InsetMapView.swift */; };
 		75E680452C2F115F0029E3FE /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E680442C2F115F0029E3FE /* ExternalWeblinkView.swift */; };
@@ -67,6 +69,8 @@
 		75A986812C2DFE9B00967D4F /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		75A986832C2E018500967D4F /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		75A986852C2E02C200967D4F /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
+		75BD90DC2C302B20007ADBD4 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		75BD90DE2C302B95007ADBD4 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		75E680402C2F0B9C0029E3FE /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		75E680422C2F0EAC0029E3FE /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		75E680442C2F115F0029E3FE /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
@@ -216,6 +220,7 @@
 				75E680402C2F0B9C0029E3FE /* InsetFactView.swift */,
 				75E680422C2F0EAC0029E3FE /* InsetMapView.swift */,
 				75E680442C2F115F0029E3FE /* ExternalWeblinkView.swift */,
+				75BD90DE2C302B95007ADBD4 /* VideoListItemView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 			children = (
 				759FAD542C2B69C10023EF09 /* CoverImage.swift */,
 				758D6DD72C2B87C600749089 /* AnimalsModel.swift */,
+				75BD90DC2C302B20007ADBD4 /* VideoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -320,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75BD90DF2C302B95007ADBD4 /* VideoListItemView.swift in Sources */,
 				75E680452C2F115F0029E3FE /* ExternalWeblinkView.swift in Sources */,
 				758D6DD62C2B878000749089 /* AnimalListView.swift in Sources */,
 				752FED452C2B304600B3B477 /* ContentView.swift in Sources */,
@@ -333,6 +340,7 @@
 				75E680432C2F0EAC0029E3FE /* InsetMapView.swift in Sources */,
 				752FED6F2C2B359700B3B477 /* GalleryView.swift in Sources */,
 				752FED712C2B359E00B3B477 /* MapListView.swift in Sources */,
+				75BD90DD2C302B20007ADBD4 /* VideoModel.swift in Sources */,
 				759FAD582C2B6A070023EF09 /* CodableBundleExtension.swift in Sources */,
 				75A986862C2E02C200967D4F /* InsetGalleryView.swift in Sources */,
 				758D6DD82C2B87C600749089 /* AnimalsModel.swift in Sources */,
