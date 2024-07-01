@@ -16,6 +16,8 @@
 		752FED712C2B359E00B3B477 /* MapListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752FED702C2B359E00B3B477 /* MapListView.swift */; };
 		752FED732C2B35FF00B3B477 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752FED722C2B35FF00B3B477 /* VideoListView.swift */; };
 		752FED752C2B36F700B3B477 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752FED742C2B36F600B3B477 /* Launch Screen.storyboard */; };
+		75532F0C2C336072005484D9 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75532F0B2C336072005484D9 /* LocationModel.swift */; };
+		75532F0E2C33615A005484D9 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75532F0D2C33615A005484D9 /* MapAnnotationView.swift */; };
 		75805D342C31DFEE0018C9AF /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75805D332C31DFEE0018C9AF /* VideoPlayerView.swift */; };
 		75805D372C31E27E0018C9AF /* ViewPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75805D362C31E27E0018C9AF /* ViewPlayerHelper.swift */; };
 		75805D472C31E5A10018C9AF /* cheetah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 75805D3C2C31E5A10018C9AF /* cheetah.mp4 */; };
@@ -59,6 +61,8 @@
 		752FED702C2B359E00B3B477 /* MapListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListView.swift; sourceTree = "<group>"; };
 		752FED722C2B35FF00B3B477 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
 		752FED742C2B36F600B3B477 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		75532F0B2C336072005484D9 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		75532F0D2C33615A005484D9 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		75805D332C31DFEE0018C9AF /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		75805D362C31E27E0018C9AF /* ViewPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPlayerHelper.swift; sourceTree = "<group>"; };
 		75805D3C2C31E5A10018C9AF /* cheetah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheetah.mp4; sourceTree = "<group>"; };
@@ -245,6 +249,7 @@
 				75E680442C2F115F0029E3FE /* ExternalWeblinkView.swift */,
 				75BD90DE2C302B95007ADBD4 /* VideoListItemView.swift */,
 				75805D332C31DFEE0018C9AF /* VideoPlayerView.swift */,
+				75532F0D2C33615A005484D9 /* MapAnnotationView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 				759FAD542C2B69C10023EF09 /* CoverImage.swift */,
 				758D6DD72C2B87C600749089 /* AnimalsModel.swift */,
 				75BD90DC2C302B20007ADBD4 /* VideoModel.swift */,
+				75532F0B2C336072005484D9 /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -373,9 +379,11 @@
 				752FED432C2B304600B3B477 /* africaApp.swift in Sources */,
 				759FAD552C2B69C10023EF09 /* CoverImage.swift in Sources */,
 				75E680432C2F0EAC0029E3FE /* InsetMapView.swift in Sources */,
+				75532F0E2C33615A005484D9 /* MapAnnotationView.swift in Sources */,
 				752FED6F2C2B359700B3B477 /* GalleryView.swift in Sources */,
 				752FED712C2B359E00B3B477 /* MapListView.swift in Sources */,
 				75BD90DD2C302B20007ADBD4 /* VideoModel.swift in Sources */,
+				75532F0C2C336072005484D9 /* LocationModel.swift in Sources */,
 				759FAD582C2B6A070023EF09 /* CodableBundleExtension.swift in Sources */,
 				75A986862C2E02C200967D4F /* InsetGalleryView.swift in Sources */,
 				758D6DD82C2B87C600749089 /* AnimalsModel.swift in Sources */,

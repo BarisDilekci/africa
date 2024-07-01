@@ -26,7 +26,7 @@ struct TabController: View {
                     }
                 }
             
-            MapListView()
+            MapView()
                 .tabItem {
                     VStack {
                         Image(systemName: "map")
